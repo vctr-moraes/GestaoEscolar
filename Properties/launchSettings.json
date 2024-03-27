@@ -28,7 +28,7 @@
     "IIS - Prod": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "applicationUrl": "https://43nrhctmjp.us-east-1.awsapprunner.com:8080;http://localhost:8081",
+      "applicationUrl": "https://localhost:8080;http://localhost:8081",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production",
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
