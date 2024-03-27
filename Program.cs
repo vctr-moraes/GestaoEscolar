@@ -30,6 +30,8 @@ else
     app.UseHsts();
 }
 
+app.MapHealthChecks("/hc");
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -42,7 +44,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
-
-app.MapHealthChecks("/hc");
 
 app.Run();
