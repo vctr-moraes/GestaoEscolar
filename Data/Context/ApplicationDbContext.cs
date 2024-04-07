@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace GestaoEscolar.Data
+namespace GestaoEscolar.Data.Context
 {
     public class ApplicationDbContext : IdentityDbContext
     {
